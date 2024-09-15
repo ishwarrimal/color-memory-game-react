@@ -1,0 +1,10 @@
+.game-board {
+  width: 25rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.game-cell {
+  border: 1px solid gray;
+  aspect-ratio: 1;
+  cursor: pointer;
+}
